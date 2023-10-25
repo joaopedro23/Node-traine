@@ -14,9 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.24.3",
-    "postgres": "^3.4.1"
+    "postgres": "^3.4.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.17.0 <19.0.0"
   }
 }

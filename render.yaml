@@ -1,3 +1,0 @@
-buildCommand: npm install
-startCommand: npm start
-nodeVersion: 14.17.0
