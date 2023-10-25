@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title":"node01",
+    "description":"esse é o primeiro video",
+    "duration":"180"
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT  http://localhost:3333/videos/f965169e-96c8-4aae-9ff1-a251a3b09000
+Content-Type: application/json
+
+{
+    "title":"video05",
+    "description":"esse é um teste",
+    "duration":"180"
+}
+
+###
+
+DELETE  http://localhost:3333/videos/função randomUUID (opções) { if (opções! == indefinido) validarObject (opções, 'opções'); const {disableEntropyCache = false, } = opções || kEmptyObject; validarBoolean(disableEntropyCache, 'options.disableEntropyCache'); retornar desabilitarEntropyCache? getUnbufferedUUID(): getBufferedUUID(); }
